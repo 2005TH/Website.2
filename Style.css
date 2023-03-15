@@ -2,22 +2,65 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+.Logo-billed {
+    border-radius: 50%;
+}
+
 *{
     margin: 0;padding: 0;
     box-sizing: border-box;}
     
     .header{width: 100%;
-    background-image: linear-gradient(to right, #B03A2E, #B03A2E);}
+    background-color: #B03A2E;}
     
     .mad{width: 100%;
-    background-image: linear-gradient(to right, #e0dfbc, #e0dfbc);}
-    
+    background-color: #e0dfbc;}
+
     .card{width: 100%;
-    background-image: linear-gradient(to right, #e0dfbc, #e0dfbc);}
+    background-color: #e0dfbc;}
     
     .bottom{width: 100%;
-    background-image: linear-gradient(to right, #B03A2E, #B03A2E);}
+    background-color: #B03A2E;}
     
+    /* Farver på "chicky grill bar" oppe i navbar*/
+    .Logo-navn {
+        color: #D53D3D;
+    }
+    .Logo-navn2 {
+        color: #3257ce;
+    }
+
+    /* størrelse og farve på de varme, de hurtige og de små */
+    .Menu-overskrift {
+        font-size: 65px;
+        color: #921f13;
+    }
+
+    /* Størrelser på alt text omkring mad */
+    .Retnavn-overskrift {
+        font-size: 24px;
+    }
+    .Retnavn-beskrivelse {
+        font-size: 17px;
+    }
+    .Ret-btn-text {
+        font-size: 17px;
+    }
+    .Ret-btn {
+        border-color: #e0dfbc;
+        background-color: #e0dfbc;
+        color: #921f13;
+    }
+    .Google-maps-link {
+        width: 300;
+        height: 200;
+        border: 0;
+    }
+
+    /* Alle billeder på de forskellige retter */
+    .Mad-billed {
+        border-radius: 5%;
+    }
 
     /* Fixed btn men skifter ikke størrelse på mobilskærm
     .fixed-btn{
